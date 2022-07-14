@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LS & R</title>
     <link rel="stylesheet" href="index.css">
+    <script src="/assets.js" defer></script>
 
 </head>
 
@@ -19,8 +20,7 @@
 
                 <div class="logo">
 
-                    <a href=""><img  src="img/LOGOTIPO_VERTICAL.png" alt=""></a>
-                        
+                    <a href="#id_n"><img  src="img/LOGOTIPO_VERTICAL.png" alt=""></a>
                 </div>
 
                 <div class="navbar">
@@ -54,13 +54,13 @@
 
                 </div>
 
-                
+
             </div>
         </nav>
     </header>
 
     <section class="home" id="id_n">
-        
+
         <div class="banner">
             <!-- /*<img src="/LS_R/img/banner.png" alt="banner"> -->
         </div>
@@ -68,19 +68,19 @@
         <div class="midias">
 
             <a href="">
-                <img src="LS_R/img/instagram.png">
+                <img src="./img/instagram.png">
             </a>
 
             <a href="">
-                <img src="LS_R/img/facebook.png">
+                <img src="./img/facebook.png">
             </a>
 
             <a href="">
-                <img src="LS_R/img/spotify.png">
+                <img src="./img/spotify.png">
             </a>
 
             <a href="">
-                <img src="LS_R/img/youtube.png">
+                <img src="./img/youtube.png">
             </a>
 
         </div>
@@ -90,15 +90,31 @@
     <section class="bio" id="bio_n">
         <div id="bio_div">
 
-            <div>
-                <span>Fotos</span>
-            </div>
-            
-            <article>
-                <h3>A dupla</h3>
-    
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores sit blanditiis ullam deleniti cupiditate cumque consequuntur exercitationem error neque molestias. Architecto soluta saepe molestias? Iusto odit voluptatum blanditiis autem! Debitis.</p>
-            </article>
+            <section class="luka-bio">
+
+                <article>
+                    <a href="https://www.instagram.com/luka_lser/?igshid=YmMyMTA2M2Y%3D">
+                        <h3>LUKA SAMPER</h3>
+                    </a>
+
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores sit blanditiis ullam deleniti cupiditate cumque consequuntur exercitationem error neque molestias. Architecto soluta saepe molestias? Iusto odit voluptatum blanditiis autem! Debitis.</p>
+                </article>
+
+            </section>
+
+
+            <section class="raul-bio">
+                <article>
+                    <a href="https://instagram.com/raul_cantor?igshid=YmMyMTA2M2Y=">
+                        <h3>Raul</h3>
+                    </a>
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores sit blanditiis ullam deleniti cupiditate cumque consequuntur exercitationem error neque molestias. Architecto soluta saepe molestias? Iusto odit voluptatum blanditiis autem! Debitis.</p>
+
+                </article>
+
+            </section>
 
         </div>
 
@@ -109,14 +125,13 @@
 
         <h2>Fotos/Videos</h2>
 
-        <div class="carrosel">
-            <div>Foto</div>
-            <div>Foto</div>
-            <div>Foto</div>
-            <div>Foto</div>
-            <div>Foto</div>
-            <div>Foto</div>
-            <div>Foto</div>
+        <div class="carousel-ctnr">
+            <span class="left-arrow">&lt;</span>
+            <!-- <img src="./img/279430084_529187478675732_2161530403659461834_n.jpg">
+            <img src="./img/279898103_529187652009048_7270363137994386634_n.jpg">
+            <img src="./img/280744898_535818054679341_2776400796223167297_n.jpg">
+            <img src="./img/281559746_539827207611759_8879668580522749300_n.jpg"> -->
+            <span class="right-arrow">&gt;</span>
         </div>
 
 
@@ -126,7 +141,7 @@
     <section class="agenda" id="agenda_n">
         <div class="agenda_div">
 
-            <div>            
+            <div>
                 <span>Datas</span>
            </div>
            <div>
@@ -134,7 +149,7 @@
            </div>
 
         </div>
-        
+
 
     </section>
 
@@ -147,54 +162,80 @@
             </div>
 
             <div class="card-name">
+                <ion-icon name="person"></ion-icon>
                <span>Paulo Francisco</span>
             </div>
 
             <div class="card-cont">
-                <span>icone | 4002-8922</span>
+                <ion-icon name="call"></ion-icon>
+                <span>18 99687-5416</span>
+                <br>
+                <ion-icon name="mail"></ion-icon>
                 <span>pf@raw.com.br</span>
 
             </div>
 
         </div>
-        
+
         <div class="card">
             <div class="card-tit">
-               <span>Imprensa</span>
+               <span>Escritório</span>
             </div>
 
             <div class="card-name">
-               <span>Paulo Francisco</span>
+               <ion-icon name="person"></ion-icon>
+               <span>Vitória Xavier</span>
             </div>
 
             <div class="card-cont">
-                <span>icone | 4002-8922</span>
+                <ion-icon name="call"></ion-icon>
+                <span>   4002-8922</span>
+                <br>
+                <ion-icon name="mail"></ion-icon>
                 <span>pf@raw.com.br</span>
 
             </div>
 
         </div>
-        
+
         <div class="card">
             <div class="card-tit">
-               <span>Imprensa</span>
+               <span>Produtor Geral</span>
             </div>
 
             <div class="card-name">
-               <span>Paulo Francisco</span>
+                <ion-icon name="person"></ion-icon>
+               <span>Yuri Bazan</span>
             </div>
 
             <div class="card-cont">
-                <span>icone | 4002-8922</span>
+                <ion-icon name="call"></ion-icon>
+                <span>   65 9948-6814</span>
+                <br>
+                <ion-icon name="mail"></ion-icon>
                 <span>pf@raw.com.br</span>
 
             </div>
 
-        </div>     
+        </div>
 
+        
     </section>
-  
-  
+
+    <div class="card">
+        <div class="card-tit">
+           <span>Contratante</span>
+        </div>
+
+        <div id="card-cont">
+            <ion-icon name="download"></ion-icon>
+            <span>Material Para Download</span>
+
+        </div>
+
+    </div>
+
+
     <footer>
         <section>
 
@@ -216,7 +257,13 @@
         </section>
 
     </footer>
-    
+
+
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 
